@@ -2,11 +2,11 @@
 
 let str= "Avinaw";
 let newStr = "";
-for(let i=N-1; i>=0; i++) {
+for(let i=N-1; i>=0; i--) {
     newStr += str[i];
 }
 if (newStr == str) {
-  console.log('Yes');
+  console.log("Yes");
 } else {
-  console.log('No');
+  console.log("No");
 }
